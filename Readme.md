@@ -1,6 +1,13 @@
 # Endless Runner
 
-It's a game I was requested to make from those guys who I don't rember how to call
+- [Docs Ref](https://docs.google.com/document/d/1ozKamX1teAbwxqOpEU_CuRYcMWSM6VP-/edit)
+- [Google Play Ref](https://play.google.com/store/apps/details?id=com.hypercarrot.giantrush)
+
+## Description 
+
+Engless runner with color change.
+
+
 
 ## Technical Task
 
@@ -13,6 +20,18 @@ Endless runner whrer character can become **Bigger** or *smaller*
 💕👍😎😃✨
 
 ![Refrence](res/RefGiantRush.gif)
+
+
+## Feature List
+
+- [x] Running 
+- [ ] Swipe Drag
+
+## Bugs🐞 
+
+- [ ] Infinit Running
+
+
 ## Technical ditaisl 
 
 `CharacterForwardController.cs`	 - Is a class I use to auto run forward
@@ -27,4 +46,3 @@ void ILoveSuck(){
 
 ```
 
-## 
