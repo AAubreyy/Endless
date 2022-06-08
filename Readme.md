@@ -22,14 +22,48 @@ Endless runner whrer character can become **Bigger** or *smaller*
 ![Refrence](res/RefGiantRush.gif)
 
 
-## Feature List
+## Feature List ✅⚜
 
-- [x] Running 
+### A Prioriy
+
+- [ ] Start/End 
+- [x] Charcater Infinit Running 
+- [x] Character Move Left/Right
+- [x] Size Changing System
+- [ ] WebGL build
+
+
+### B Priority
+
+- [ ] Die Feature `score==0`
+
+<details> 
+
+```scharp
+
+void Update(){
+	if(score<0)
+		Die();
+	else	
+		KeepRunning();
+}
+```
+
+</details> 
+
 - [ ] Swipe Drag
+- [ ] End Game
+- [ ] Score counting
+- [x] Grow Limition
+
+
+### C Priority
 
 ## Bugs🐞 
 
 - [ ] Infinit Running
+- [ ] Size changing
+- [ ] Grow Limition
 
 
 ## Technical ditaisl 
