@@ -193,12 +193,12 @@ public class GameManager : MonoBehaviour
 
     private void HandleGameplay()
     {
-        _charFwdMove.enabled = true;
+        //_charFwdMove.enabled = true;
     }
 
     private void HandleEndScreen()
     {
         print("Called End Screen");
-        _charFwdMove.enabled = false;
+        //_charFwdMove.enabled = false;
     }
 }

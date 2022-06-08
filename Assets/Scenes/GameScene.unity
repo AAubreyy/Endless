@@ -279,7 +279,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 229802918}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 324525667}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnStartButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &229802918
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -400,7 +412,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 276095707}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 324525667}
+        m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
+        m_MethodName: OnTryAgainPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &276095707
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -507,6 +531,7 @@ MonoBehaviour:
   startButton: {fileID: 229802917}
   retryButton: {fileID: 276095706}
   score: {fileID: 1779452106}
+  _characterForward: {fileID: 555279055}
 --- !u!114 &324525668
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -592,6 +617,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   staticCharacterSpeed: 1
   thirdPersonController: {fileID: 0}
+  IsRunning: 0
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -881,7 +907,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New Text
+  m_text: Try Again
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

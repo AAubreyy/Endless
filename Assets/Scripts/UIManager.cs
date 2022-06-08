@@ -2,6 +2,7 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 using Button = UnityEngine.UI.Button;
 
 public class UIManager : MonoBehaviour
@@ -15,6 +16,7 @@ public class UIManager : MonoBehaviour
 
     // [SerializeField] public TextMeshProUGUI message;
     [SerializeField] private GameObject score;
+    [SerializeField] private CharacterForwardMove _characterForward;
 
     private void Awake()
     {
@@ -29,9 +31,17 @@ public class UIManager : MonoBehaviour
     {
         GameManager.OnGameStateChanged -= GameManagerOnStateChanged;
     }
+    public void OnStartButtonPressed(){
+	    _characterForward.StartRunning();
+	    startButton.gameObject.SetActive(false);
+    }
 
-    private void GameManagerOnStateChanged(GameManager.GameState state)
-    {
+    public void OnTryAgainPressed(){
+	    SceneManager.LoadScene(0);
+    }
+
+	    private void GameManagerOnStateChanged(GameManager.GameState state)
+	    {
         switch (state)
         {
             case GameManager.GameState.StartScreen:
@@ -48,6 +58,8 @@ public class UIManager : MonoBehaviour
             case GameManager.GameState.EndScreen:
                 // message.text = "Game Over";
                 // message.transform.parent.gameObject.SetActive(true);
+		
+		_characterForward.Stop();
                 retryButton.gameObject.SetActive(true);
                 score.SetActive(true);
                 break;

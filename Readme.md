@@ -28,7 +28,7 @@ Endless runner whrer character can become **Bigger** or *smaller*
 
 - [ ] Start/End 
 - [ ] WebGL build
-- [ ] Random Level Generation
+- [x] **Random Level Generation**
 - [x] Github web page
 - [x] Charcater Infinit Running 
 - [x] Character Move Left/Right
