@@ -27,10 +27,12 @@ Endless runner whrer character can become **Bigger** or *smaller*
 ### A Prioriy
 
 - [ ] Start/End 
+- [ ] WebGL build
+- [ ] Random Level Generation
+- [x] Github web page
 - [x] Charcater Infinit Running 
 - [x] Character Move Left/Right
 - [x] Size Changing System
-- [ ] WebGL build
 
 
 ### B Priority
@@ -64,6 +66,12 @@ void Update(){
 - [ ] Size changing
 - [ ] Grow Limition
 
+
+## Progress
+
+### V 0.1
+
+![V 0.1](res/EndlessSize0.1.gif)
 
 ## Technical ditaisl 
 
