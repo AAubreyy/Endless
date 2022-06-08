@@ -38,9 +38,9 @@ Endless runner whrer character can become **Bigger** or *smaller*
 - [ ] Die Feature `score==0`
 
 <details> 
+ <summary>Code</summary>
 
-```scharp
-
+```csharp
 void Update(){
 	if(score<0)
 		Die();
@@ -48,7 +48,6 @@ void Update(){
 		KeepRunning();
 }
 ```
-
 </details> 
 
 - [ ] Swipe Drag
