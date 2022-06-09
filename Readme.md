@@ -78,10 +78,10 @@ void Update(){
 `CharacterForwardController.cs`	 - Is a class I use to auto run forward
 
 ```csharp
-void ILoveSuck(){
-	SuckSomeDick();
-	for(int i = 0; i<EnoughSucking;I++){
-	Suck();
+void ILoveGame(){
+	GamWork();
+	for(int i = 0; i<Enough;I++){
+	GameCycle();
 	}
 }
 
