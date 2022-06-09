@@ -22,6 +22,12 @@ Endless runner whrer character can become **Bigger** or *smaller*
 ![Refrence](res/RefGiantRush.gif)
 
 
+## Progress
+
+### V 0.1
+
+![V 0.1](res/EndlessSize0.1.gif)
+
 ## Feature List ✅⚜
 
 ### A Prioriy
@@ -66,12 +72,6 @@ void Update(){
 - [ ] Size changing
 - [ ] Grow Limition
 
-
-## Progress
-
-### V 0.1
-
-![V 0.1](res/EndlessSize0.1.gif)
 
 ## Technical ditaisl 
 

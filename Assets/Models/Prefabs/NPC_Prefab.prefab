@@ -61,7 +61,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d4889378fc93bf84e96579dc3a32b28a, type: 2}
+  - {fileID: 2100000, guid: 1789fa75c7c12ab408d571fd2f937251, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -112,4 +112,4 @@ MonoBehaviour:
   matRed: {fileID: 2100000, guid: d4889378fc93bf84e96579dc3a32b28a, type: 2}
   matGreen: {fileID: 2100000, guid: 40133d97be1fb8f45ab200558abbdc78, type: 2}
   matBlue: {fileID: 2100000, guid: 1789fa75c7c12ab408d571fd2f937251, type: 2}
-  npcColorCode: 0
+  npcColorCode: 2
